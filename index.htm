@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karma Shop | Full Version</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-white">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50 w-full">
+        <div class="container mx-auto flex items-center justify-between px-6 py-4 md:px-12">
+            <a href="#" class="flex items-center">
+                <img src="https://preview.colorlib.com/theme/karma/img/logo.png" alt="Karma Logo" class="h-8 md:h-10">
+            </a>
+
+            <nav class="hidden lg:flex items-center space-x-8 text-[12px] font-bold text-gray-600 tracking-widest">
+                <a href="#" class="text-[#ffba00]">HOME</a>
+                <a href="#" class="hover:text-[#ffba00] transition-colors uppercase">Shop</a>
+                <a href="#" class="hover:text-[#ffba00] transition-colors uppercase">Blog</a>
+                <a href="#" class="hover:text-[#ffba00] transition-colors uppercase">Pages</a>
+                <a href="#" class="hover:text-[#ffba00] transition-colors uppercase">Contact</a>
+            </nav>
+
+            <div class="flex items-center space-x-5 text-gray-600">
+                <i class="fas fa-search hover:text-[#ffba00] cursor-pointer transition"></i>
+                <div class="relative cursor-pointer group">
+                    <i class="fas fa-shopping-bag hover:text-[#ffba00] transition text-lg"></i>
+                    <span class="absolute -top-2 -right-2 bg-[#ffba00] text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">0</span>
+                </div>
+                <button class="lg:hidden text-gray-700 text-2xl focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="relative h-[600px] md:h-[700px] w-full bg-cover bg-center flex items-center" 
+                 style="background-image: url('https://preview.colorlib.com/theme/karma/img/banner/banner-bg.jpg');">
+            
+            <div class="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 items-center h-full">
+                <div class="z-10 pt-10 md:pt-0">
+                    <h1 class="text-4xl md:text-7xl font-bold leading-tight mb-4 text-gray-900">
+                        Nike New <br> Collection!
+                    </h1>
+                    <p class="text-gray-500 mb-8 max-w-lg text-sm md:text-base leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="flex items-center group cursor-pointer w-fit">
+                        <div class="w-12 h-12 bg-[#ffba00] rounded-full flex items-center justify-center text-white shadow-lg group-hover:bg-[#e6a800] transition transform group-hover:scale-110">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <span class="ml-4 font-bold uppercase text-sm tracking-wide group-hover:text-[#ffba00] transition">Add to Bag</span>
+                    </div>
+                </div>
+
+                <div class="relative flex justify-center md:justify-end z-10">
+                    <img src="https://preview.colorlib.com/theme/karma/img/banner/banner-img.png" 
+                         alt="Nike Shoe" 
+                         class="w-[80%] md:w-[110%] max-w-none transform md:translate-x-10 drop-shadow-2xl hover:rotate-[-5deg] transition duration-500">
+                </div>
+            </div>
+        </section>
+
+        <section class="relative z-20 px-4 md:px-12 -mt-20 mb-20">
+            <div class="container mx-auto bg-white shadow-lg rounded-lg border border-gray-100 py-10">
+                <div class="grid grid-cols-1 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-gray-200">
+                    
+                    <div class="flex flex-col items-center text-center p-4 hover:shadow-lg transition duration-300 cursor-pointer">
+                        <i class="fas fa-truck text-3xl text-gray-800 mb-3 hover:text-[#ffba00] transition"></i>
+                        <h6 class="font-bold text-gray-800 text-sm uppercase">Free Delivery</h6>
+                        <p class="text-xs text-gray-500 mt-2">Free Shipping on all order</p>
+                    </div>
+
+                    <div class="flex flex-col items-center text-center p-4 hover:shadow-lg transition duration-300 cursor-pointer">
+                        <i class="fas fa-sync-alt text-3xl text-gray-800 mb-3 hover:text-[#ffba00] transition"></i>
+                        <h6 class="font-bold text-gray-800 text-sm uppercase">Return Policy</h6>
+                        <p class="text-xs text-gray-500 mt-2">Free Shipping on all order</p>
+                    </div>
+
+                    <div class="flex flex-col items-center text-center p-4 hover:shadow-lg transition duration-300 cursor-pointer">
+                        <i class="fas fa-headset text-3xl text-gray-800 mb-3 hover:text-[#ffba00] transition"></i>
+                        <h6 class="font-bold text-gray-800 text-sm uppercase">24/7 Support</h6>
+                        <p class="text-xs text-gray-500 mt-2">Free Shipping on all order</p>
+                    </div>
+
+                    <div class="flex flex-col items-center text-center p-4 hover:shadow-lg transition duration-300 cursor-pointer">
+                        <i class="fas fa-database text-3xl text-gray-800 mb-3 hover:text-[#ffba00] transition"></i>
+                        <h6 class="font-bold text-gray-800 text-sm uppercase">Secure Payment</h6>
+                        <p class="text-xs text-gray-500 mt-2">Free Shipping on all order</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-20 px-6 md:px-12">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="flex flex-col gap-8">
+                        <div class="relative overflow-hidden group h-[260px]">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c1.jpg" class="w-full h-full object-cover transition duration-500 transform group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition duration-500"></div>
+                        </div>
+                        <div class="relative overflow-hidden group h-[260px]">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c2.jpg" class="w-full h-full object-cover transition duration-500 transform group-hover:scale-110">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-8">
+                        <div class="relative overflow-hidden group h-[260px]">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c3.jpg" class="w-full h-full object-cover transition duration-500 transform group-hover:scale-110">
+                        </div>
+                        <div class="relative overflow-hidden group h-[260px]">
+                            <img src="https://preview.colorlib.com/theme/karma/img/category/c4.jpg" class="w-full h-full object-cover transition duration-500 transform group-hover:scale-110">
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden group h-full min-h-[260px]">
+                        <img src="https://preview.colorlib.com/theme/karma/img/category/c5.jpg" class="w-full h-full object-cover transition duration-500 transform group-hover:scale-110">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-20 bg-white">
+            <div class="container mx-auto px-6 md:px-12">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Latest Products</h2>
+                    <p class="text-gray-500 max-w-xl mx-auto text-sm">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div id="mehsul-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        const mehsullar = [
+            { id: 1, name: "Nike Air Max 270", price: 150.00, image: "https://preview.colorlib.com/theme/karma/img/product/p1.jpg" },
+            { id: 2, name: "Nike Cortez", price: 120.00, image: "https://preview.colorlib.com/theme/karma/img/product/p2.jpg" },
+            { id: 3, name: "Nike Air Force", price: 180.00, image: "https://preview.colorlib.com/theme/karma/img/product/p3.jpg" },
+            { id: 4, name: "Nike Pegasus", price: 140.00, image: "https://preview.colorlib.com/theme/karma/img/product/p4.jpg" },
+            { id: 5, name: "Nike React", price: 160.00, image: "https://preview.colorlib.com/theme/karma/img/product/p5.jpg" },
+            { id: 6, name: "Nike Zoom", price: 130.00, image: "https://preview.colorlib.com/theme/karma/img/product/p6.jpg" },
+            { id: 7, name: "Nike Jordan", price: 200.00, image: "https://preview.colorlib.com/theme/karma/img/product/p7.jpg" },
+            { id: 8, name: "Nike Vapormax", price: 220.00, image: "https://preview.colorlib.com/theme/karma/img/product/p8.jpg" }
+        ];
+
+        function mehsullariGoster() {
+            const container = document.getElementById('mehsul-container');
+            
+            mehsullar.forEach(item => {
+                const card = `
+                    <div class="group">
+                        <div class="relative bg-[#f6f6f6] h-[280px] flex items-center justify-center overflow-hidden rounded-sm mb-4">
+                            <img src="${item.image}" class="w-3/4 mix-blend-multiply transition duration-500 group-hover:scale-110" alt="${item.name}">
+                            
+                            <div class="absolute bottom-[-50px] group-hover:bottom-5 transition-all duration-300 w-full flex justify-center space-x-3">
+                                <button onclick="sebeteAt(${item.id})" class="w-10 h-10 bg-[#ffba00] text-white flex items-center justify-center shadow-md hover:bg-gray-800 transition rounded-sm">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </button>
+                                <button class="w-10 h-10 bg-white text-gray-800 flex items-center justify-center shadow-md hover:text-[#ffba00] transition rounded-sm">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                                <button class="w-10 h-10 bg-white text-gray-800 flex items-center justify-center shadow-md hover:text-[#ffba00] transition rounded-sm">
+                                    <i class="fas fa-sync-alt"></i>
+                                </button>
+                                <button class="w-10 h-10 bg-white text-gray-800 flex items-center justify-center shadow-md hover:text-[#ffba00] transition rounded-sm">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="text-left">
+                            <h6 class="text-base font-bold text-gray-800 uppercase hover:text-[#ffba00] cursor-pointer transition truncate">${item.name}</h6>
+                            <div class="flex items-center gap-3 mt-1">
+                                <span class="font-bold text-lg text-gray-900">$${item.price.toFixed(2)}</span>
+                                <span class="text-sm text-gray-400 line-through">$${(item.price * 1.3).toFixed(2)}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += card;
+            });
+        }
+
+        
+        mehsullariGoster();
+    </script>
+</body>
+</html>
